@@ -1,0 +1,42 @@
+.container {
+  padding-left: 280px; 
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+}
+
+.form-group {
+  flex: 1; 
+  margin-right: 10px; 
+}
+
+.form-group:last-child {
+  margin-right: 0; 
+}
+
+
+.button-container {
+  display: flex; 
+  justify-content: flex-start; 
+  margin-top: 20px; 
+  padding-left: 60px; 
+}
+
+table {
+  width: 100%;
+  table-layout: auto; /* Permite ajustar el ancho de las columnas según su contenido */
+}
+
+.mat-header-cell, .mat-cell {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* Agrega puntos suspensivos si el contenido es demasiado largo */
+}
+
+.mat-elevation-z8 {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
